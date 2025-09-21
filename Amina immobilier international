@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppY4V4SH2U4E - Poe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#5D5CDE',
+                        'poe-bg-light': '#FFFFFF',
+                        'poe-bg-dark': '#181818'
+                    }
+                }
+            },
+            darkMode: 'class'
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="h-full bg-poe-bg-light dark:bg-poe-bg-dark text-gray-900 dark:text-gray-100 transition-colors duration-200">
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo and Navigation -->
+                <div class="flex items-center space-x-8">
+                    <div class="flex items-center">
+                        <h1 class="text-2xl font-bold text-primary">Poe</h1>
+                        <span class="ml-2 text-sm text-gray-500">Fast AI Chat</span>
+                    </div>
+                    <nav class="hidden md:flex space-x-6">
+                        <a href="#" class="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors">Explore</a>
+                        <a href="#" class="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors">Create</a>
+                        <a href="#" class="text-gray-700 dark:text-gray-300 hover:text-primary transition-colors">Send feedback</a>
+                    </nav>
+                </div>
+                
+                <!-- User Actions -->
+                <div class="flex items-center space-x-4">
+                    <button class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-colors">
+                        Sign up
+                    </button>
+                    <button class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary/10 to-purple-100 dark:from-primary/20 dark:to-purple-900/20 py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                Poe gives you access to the best AI, all in one place
+            </h2>
+            <p class="text-xl text-gray-600 dark:text-gray-300 mb-8">
+                Explore GPT-5, Claude Opus 4.1, DeepSeek-R1, Veo 3, ElevenLabs, and millions of others.
+            </p>
+            
+            <!-- Download Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                <a href="#" class="bg-black text-white px-6 py-3 rounded-xl flex items-center space-x-2 hover:bg-gray-800 transition-colors">
+                    <i class="fab fa-apple"></i>
+                    <span>Download iOS app</span>
+                </a>
+                <a href="#" class="bg-green-600 text-white px-6 py-3 rounded-xl flex items-center space-x-2 hover:bg-green-700 transition-colors">
+                    <i class="fab fa-google-play"></i>
+                    <span>Download Android app</span>
+                </a>
+            </div>
+            
+            <!-- Social Links -->
+            <div class="flex justify-center items-center space-x-6 text-gray-600 dark:text-gray-400">
+                <span>Follow us on</span>
+                <a href="#" class="hover:text-primary transition-colors">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="hover:text-primary transition-colors">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <span>Join our</span>
+                <a href="#" class="text-primary hover:underline">community</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Section -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Main Content -->
+            <div class="lg:col-span-2">
+                <!-- App Header -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h1 class="text-3xl font-bold">AppY4V4SH2U4E</h1>
+                            <p class="text-gray-600 dark:text-gray-400">By @mandjoucamara</p>
+                            <p class="text-sm text-gray-500">1 follower</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-colors">
+                                <i class="fas fa-share"></i> Share
+                            </button>
+                            <button class="border border-gray-300 dark:border-gray-600 px-4 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                                Go to AppY4V4SH2U4E
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Status Badge -->
+                    <div class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+                        <span class="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
+                        NEW
+                    </div>
+                </div>
+
+                <!-- App Content Area -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                    <div class="text-center py-12">
+                        <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-robot text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Variable Points App</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">
+                            This app appears to be focused on variable points functionality. 
+                            Click "Go to AppY4V4SH2U4E" to interact with the full application.
+                        </p>
+                        <button class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors">
+                            Start New Chat
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="space-y-6">
+                <!-- Navigation Menu -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                    <nav class="space-y-2">
+                        <a href="#" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-history text-gray-500"></i>
+                            <span>History</span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-chart-line text-gray-500"></i>
+                            <span>Rates</span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-code text-gray-500"></i>
+                            <span>API</span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-share-alt text-gray-500"></i>
+                            <span>Share app</span>
+                        </a>
+                    </nav>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+                    <h3 class="font-semibold mb-4">Quick Actions</h3>
+                    <div class="space-y-3">
+                        <button class="w-full text-left px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-plus text-primary mr-2"></i>
+                            New chat
+                        </button>
+                        <button class="w-full text-left px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-copy text-primary mr-2"></i>
+                            Copy link
+                        </button>
+                        <button class="w-full text-left px-3 py-2 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors">
+                            <i class="fas fa-download text-primary mr-2"></i>
+                            Export data
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-wrap justify-center items-center space-x-6 text-sm text-gray-600 dark:text-gray-400">
+                <a href="#" class="hover:text-primary transition-colors">About</a>
+                <span>·</span>
+                <a href="#" class="hover:text-primary transition-colors">Blog</a>
+                <span>·</span>
+                <a href="#" class="hover:text-primary transition-colors">Careers</a>
+                <span>·</span>
+                <a href="#" class="hover:text-primary transition-colors">Help center</a>
+                <span>·</span>
+                <a href="#" class="hover:text-primary transition-colors">Privacy policy</a>
+                <span>·</span>
+                <a href="#" class="hover:text-primary transition-colors">Terms of service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Dark mode support
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.querySelector('.fa-bars').parentElement;
+            const nav = document.querySelector('nav');
+            
+            menuButton.addEventListener('click', function() {
+                nav.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
